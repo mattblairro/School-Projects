@@ -1,0 +1,926 @@
+Enter TRACE:2
+                via     
+   D0 |    1     2    3 
+  ----|-----------------
+     1|    1     1     4
+dest 2|    1     0     2
+     3|   20     4     1
+             via   
+   D1 |    0     2 
+  ----|-----------
+     0|    0     2
+dest 2|    3     0
+     3|    9     4
+WARNING: source and destination not connected, ignoring packet!
+                via     
+   D2 |    0     1    3 
+  ----|-----------------
+     0|    0     1     3
+dest 1|    0     1     4
+     3|    9    20     1
+             via     
+   D3 |    0     2 
+  ----|-----------
+     0|    0     2
+dest 1|    0     1
+     2|    3     0
+MAIN: rcv event, t=0.947, at 3 src: 0, dest: 3, contents:   0   1   2   3
+             via     
+   D3 |    0     2 
+  ----|-----------
+     0|    0     2
+dest 1|    0     1
+     2|    3     0
+             via     
+   D3 |    0     2 
+  ----|-----------
+     0|    0     2
+dest 1|    0     1
+     2|    3     0
+MAIN: rcv event, t=0.992, at 0 src: 1, dest: 0, contents:   0   1   1   4
+                via     
+   D0 |    1     2    3 
+  ----|-----------------
+     1|    1     1     4
+dest 2|    1     0     2
+     3|   20     4     1
+MAIN: rcv event, t=1.209, at 3 src: 2, dest: 3, contents:   3   1   0   2
+             via     
+   D3 |    0     2 
+  ----|-----------
+     0|    0     2
+dest 1|    0     1
+     2|    3     0
+             via     
+   D3 |    0     2 
+  ----|-----------
+     0|    0     2
+dest 1|    0     1
+     2|    3     0
+MAIN: rcv event, t=1.316, at 3 src: 0, dest: 3, contents:   0   1   2   3
+MAIN: rcv event, t=1.642, at 2 src: 0, dest: 2, contents:   0   1   2   3
+                via     
+   D2 |    0     1    3 
+  ----|-----------------
+     0|    0     1     3
+dest 1|    0     1     3
+     3|    9    20     1
+                via     
+   D2 |    0     1    3 
+  ----|-----------------
+     0|    0     1     3
+dest 1|    0     1     3
+     3|    9    10     1
+MAIN: rcv event, t=1.871, at 1 src: 0, dest: 1, contents:   0   1   2   3
+             via   
+   D1 |    0     2 
+  ----|-----------
+     0|    0     2
+dest 2|    3     0
+     3|    9     4
+WARNING: source and destination not connected, ignoring packet!
+             via   
+   D1 |    0     2 
+  ----|-----------
+     0|    0     2
+dest 2|    3     0
+     3|    9     4
+WARNING: source and destination not connected, ignoring packet!
+MAIN: rcv event, t=2.166, at 2 src: 1, dest: 2, contents:   0   1   1   4
+                via     
+   D2 |    0     1    3 
+  ----|-----------------
+     0|    0     1     3
+dest 1|    0     1     3
+     3|    9    10     1
+MAIN: rcv event, t=2.407, at 0 src: 2, dest: 0, contents:   3   1   0   2
+                via     
+   D0 |    1     2    3 
+  ----|-----------------
+     1|    1     1     3
+dest 2|    1     0     2
+     3|   20     4     1
+                via     
+   D0 |    1     2    3 
+  ----|-----------------
+     1|    1     1     3
+dest 2|    1     0     2
+     3|   20     4     1
+                via     
+   D0 |    1     2    3 
+  ----|-----------------
+     1|    1     1     3
+dest 2|    1     0     2
+     3|    5     4     1
+MAIN: rcv event, t=2.421, at 2 src: 3, dest: 2, contents:   9  20   4   1
+MAIN: rcv event, t=2.760, at 3 src: 2, dest: 3, contents:   3   1   0   2
+MAIN: rcv event, t=2.811, at 1 src: 2, dest: 1, contents:   3   1   0   2
+             via   
+   D1 |    0     2 
+  ----|-----------
+     0|    0     2
+dest 2|    3     0
+     3|    7     4
+WARNING: source and destination not connected, ignoring packet!
+             via   
+   D1 |    0     2 
+  ----|-----------
+     0|    0     2
+dest 2|    3     0
+     3|    7     4
+WARNING: source and destination not connected, ignoring packet!
+MAIN: rcv event, t=2.877, at 1 src: 0, dest: 1, contents:   0   1   2   3
+MAIN: rcv event, t=3.293, at 2 src: 3, dest: 2, contents:   9  20   4   1
+MAIN: rcv event, t=3.589, at 1 src: 2, dest: 1, contents:   3   1   0   2
+MAIN: rcv event, t=3.974, at 1 src: 2, dest: 1, contents:   3   1   0   2
+MAIN: rcv event, t=4.063, at 2 src: 3, dest: 2, contents:   9  10   4   1
+MAIN: rcv event, t=4.104, at 0 src: 3, dest: 0, contents:   9  20   4   1
+MAIN: rcv event, t=4.152, at 1 src: 2, dest: 1, contents:   1   1   0   2
+             via   
+   D1 |    0     2 
+  ----|-----------
+     0|    0     2
+dest 2|    1     0
+     3|    7     4
+WARNING: source and destination not connected, ignoring packet!
+             via   
+   D1 |    0     2 
+  ----|-----------
+     0|    0     2
+dest 2|    1     0
+     3|    5     4
+WARNING: source and destination not connected, ignoring packet!
+MAIN: rcv event, t=4.238, at 3 src: 2, dest: 3, contents:   3   1   0   2
+MAIN: rcv event, t=4.330, at 0 src: 3, dest: 0, contents:   9  20   4   1
+MAIN: rcv event, t=4.945, at 2 src: 0, dest: 2, contents:   0   1   2   3
+MAIN: rcv event, t=5.318, at 1 src: 0, dest: 1, contents:   0   1   2   3
+MAIN: rcv event, t=5.425, at 1 src: 0, dest: 1, contents:   0   1   2   3
+MAIN: rcv event, t=5.787, at 1 src: 0, dest: 1, contents:   0   1   2   3
+MAIN: rcv event, t=6.163, at 0 src: 3, dest: 0, contents:   9  10   4   1
+MAIN: rcv event, t=6.202, at 3 src: 2, dest: 3, contents:   1   1   0   2
+             via     
+   D3 |    0     2 
+  ----|-----------
+     0|    0     2
+dest 1|    0     1
+     2|    1     0
+             via     
+   D3 |    0     2 
+  ----|-----------
+     0|    0     2
+dest 1|    0     1
+     2|    1     0
+MAIN: rcv event, t=6.818, at 2 src: 3, dest: 2, contents:   7  10   4   1
+                via     
+   D2 |    0     1    3 
+  ----|-----------------
+     0|    0     1     3
+dest 1|    0     1     3
+     3|    8    10     1
+MAIN: rcv event, t=6.932, at 1 src: 2, dest: 1, contents:   1   1   0   2
+MAIN: rcv event, t=7.021, at 0 src: 3, dest: 0, contents:   7  10   4   1
+MAIN: rcv event, t=7.580, at 3 src: 0, dest: 3, contents:   0   1   2   3
+MAIN: rcv event, t=7.970, at 0 src: 3, dest: 0, contents:   7   5   4   1
+MAIN: rcv event, t=7.996, at 2 src: 3, dest: 2, contents:   7   5   4   1
+                via     
+   D2 |    0     1    3 
+  ----|-----------------
+     0|    0     1     3
+dest 1|    0     1     3
+     3|    8     6     1
+MAIN: rcv event, t=8.300, at 2 src: 1, dest: 2, contents:   0   1   1   3
+                via     
+   D2 |    0     1    3 
+  ----|-----------------
+     0|    0     1     3
+dest 1|    0     1     3
+     3|    6     6     1
+MAIN: rcv event, t=8.413, at 1 src: 2, dest: 1, contents:   1   1   0   2
+MAIN: rcv event, t=8.655, at 3 src: 0, dest: 3, contents:   0   1   2   3
+MAIN: rcv event, t=9.005, at 1 src: 2, dest: 1, contents:   1   1   0   2
+MAIN: rcv event, t=9.317, at 2 src: 1, dest: 2, contents:   0   1   1   3
+MAIN: rcv event, t=9.407, at 0 src: 2, dest: 0, contents:   3   1   0   2
+MAIN: rcv event, t=10.019, at 2 src: 0, dest: 2, contents:   0   1   2   3
+MAIN: rcv event, t=10.602, at 3 src: 0, dest: 3, contents:   0   1   2   3
+MAIN: rcv event, t=10.983, at 2 src: 0, dest: 2, contents:   0   1   2   3
+MAIN: rcv event, t=11.189, at 0 src: 2, dest: 0, contents:   3   1   0   2
+MAIN: rcv event, t=11.247, at 3 src: 2, dest: 3, contents:   1   1   0   2
+MAIN: rcv event, t=11.869, at 0 src: 1, dest: 0, contents:   0   1   1   3
+                via     
+   D0 |    1     2    3 
+  ----|-----------------
+     1|    1     1     3
+dest 2|    1     0     2
+     3|    5     4     1
+MAIN: rcv event, t=12.174, at 2 src: 0, dest: 2, contents:   0   1   2   3
+MAIN: rcv event, t=12.406, at 0 src: 1, dest: 0, contents:   0   1   1   3
+MAIN: rcv event, t=12.429, at 3 src: 2, dest: 3, contents:   1   1   0   2
+MAIN: rcv event, t=12.580, at 0 src: 2, dest: 0, contents:   1   1   0   2
+MAIN: rcv event, t=12.774, at 0 src: 1, dest: 0, contents:   0   1   1   3
+MAIN: rcv event, t=12.787, at 0 src: 1, dest: 0, contents:   0   1   1   3
+MAIN: rcv event, t=12.855, at 0 src: 1, dest: 0, contents:   0   1   1   3
+MAIN: rcv event, t=13.699, at 1 src: 0, dest: 1, contents:   0   1   2   3
+MAIN: rcv event, t=13.789, at 3 src: 2, dest: 3, contents:   1   1   0   2
+MAIN: rcv event, t=13.805, at 0 src: 1, dest: 0, contents:   0   1   1   3
+MAIN: rcv event, t=13.850, at 3 src: 0, dest: 3, contents:   0   1   2   3
+MAIN: rcv event, t=13.854, at 0 src: 3, dest: 0, contents:   1   5   4   1
+                via     
+   D0 |    1     2    3 
+  ----|-----------------
+     1|    1     1     3
+dest 2|    1     0     2
+     3|    5     4     1
+MAIN: rcv event, t=14.136, at 2 src: 1, dest: 2, contents:   0   1   1   3
+MAIN: rcv event, t=14.880, at 3 src: 0, dest: 3, contents:   0   1   2   3
+MAIN: rcv event, t=15.062, at 1 src: 0, dest: 1, contents:   0   1   2   3
+MAIN: rcv event, t=15.213, at 2 src: 1, dest: 2, contents:   0   1   1   3
+MAIN: rcv event, t=15.583, at 0 src: 3, dest: 0, contents:   1   5   4   1
+MAIN: rcv event, t=15.751, at 0 src: 2, dest: 0, contents:   1   1   0   2
+MAIN: rcv event, t=16.084, at 2 src: 1, dest: 2, contents:   0   1   1   3
+MAIN: rcv event, t=16.600, at 0 src: 2, dest: 0, contents:   1   1   0   2
+MAIN: rcv event, t=17.102, at 2 src: 1, dest: 2, contents:   0   1   1   3
+MAIN: rcv event, t=17.488, at 2 src: 3, dest: 2, contents:   1   5   4   1
+                via     
+   D2 |    0     1    3 
+  ----|-----------------
+     0|    0     1     3
+dest 1|    0     1     3
+     3|    2     6     1
+MAIN: rcv event, t=17.705, at 3 src: 2, dest: 3, contents:   1   1   0   2
+MAIN: rcv event, t=17.715, at 1 src: 2, dest: 1, contents:   1   1   0   2
+MAIN: rcv event, t=18.466, at 0 src: 2, dest: 0, contents:   1   1   0   2
+MAIN: rcv event, t=18.655, at 2 src: 3, dest: 2, contents:   1   5   4   1
+MAIN: rcv event, t=18.749, at 0 src: 2, dest: 0, contents:   1   1   0   2
+MAIN: rcv event, t=20.412, at 2 src: 0, dest: 2, contents:   0   1   2   3
+                via     
+   D2 |    0     1    3 
+  ----|-----------------
+     0|    0     1     3
+dest 1|    0     1     3
+     3|    2     3     1
+MAIN: rcv event, t=20.592, at 3 src: 2, dest: 3, contents:   1   1   0   2
+MAIN: rcv event, t=20.642, at 0 src: 2, dest: 0, contents:   1   1   0   2
+MAIN: rcv event, t=20.834, at 1 src: 2, dest: 1, contents:   1   1   0   2
+MAIN: rcv event, t=22.277, at 2 src: 0, dest: 2, contents:   0   1   2   3
+MAIN: rcv event, t=10000.000, at -1MAIN: rcv event, t=20000.000, at 0
+Simulator terminated at t=20000.000000, no packets in medium
+
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+------------------------------------------------------------------------------
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+
+Enter TRACE:123
+                via     
+   D0 |    1     2    3 
+  ----|-----------------
+     1|    1     1     4
+dest 2|    1     0     2
+     3|   20     4     1
+    TOLAYER2: source: 0, dest: 1
+              costs:0  1  2  3  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 0.000000
+            INSERTEVENT: future time will be 1.870574
+    TOLAYER2: source: 0, dest: 2
+              costs:0  1  2  3  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 0.000000
+            INSERTEVENT: future time will be 1.641910
+    TOLAYER2: source: 0, dest: 3
+              costs:0  1  2  3  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 0.000000
+            INSERTEVENT: future time will be 0.946640
+             via   
+   D1 |    0     2 
+  ----|-----------
+     0|    0     2
+dest 2|    3     0
+     3|    9     4
+    TOLAYER2: source: 1, dest: 0
+              costs:0  1  1  4  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 0.000000
+            INSERTEVENT: future time will be 0.992243
+    TOLAYER2: source: 1, dest: 2
+              costs:0  1  1  4  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 0.000000
+            INSERTEVENT: future time will be 2.165707
+WARNING: source and destination not connected, ignoring packet!
+                via     
+   D2 |    0     1    3 
+  ----|-----------------
+     0|    0     1     3
+dest 1|    0     1     4
+     3|    9    20     1
+    TOLAYER2: source: 2, dest: 0
+              costs:3  1  0  2  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 0.000000
+            INSERTEVENT: future time will be 2.406722
+    TOLAYER2: source: 2, dest: 1
+              costs:3  1  0  2  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 0.000000
+            INSERTEVENT: future time will be 2.810933
+    TOLAYER2: source: 2, dest: 3
+              costs:3  1  0  2  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 0.000000
+            INSERTEVENT: future time will be 1.209223
+             via     
+   D3 |    0     2 
+  ----|-----------
+     0|    0     2
+dest 1|    0     1
+     2|    3     0
+    TOLAYER2: source: 3, dest: 0
+              costs:9  20  4  1  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 0.000000
+            INSERTEVENT: future time will be 4.103641
+    TOLAYER2: source: 3, dest: 2
+              costs:9  20  4  1  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 0.000000
+            INSERTEVENT: future time will be 2.421268
+            INSERTEVENT: time is 0.000000
+            INSERTEVENT: future time will be 10000.000000
+            INSERTEVENT: time is 0.000000
+            INSERTEVENT: future time will be 20000.000000
+MAIN: rcv event, t=0.947, at 3 src: 0, dest: 3, contents:   0   1   2   3
+             via     
+   D3 |    0     2 
+  ----|-----------
+     0|    0     2
+dest 1|    0     1
+     2|    3     0
+    TOLAYER2: source: 3, dest: 0
+              costs:9  20  4  1  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 0.946640
+            INSERTEVENT: future time will be 4.330418
+    TOLAYER2: source: 3, dest: 2
+              costs:9  20  4  1  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 0.946640
+            INSERTEVENT: future time will be 3.292663
+             via     
+   D3 |    0     2 
+  ----|-----------
+     0|    0     2
+dest 1|    0     1
+     2|    3     0
+    TOLAYER2: source: 3, dest: 0
+              costs:9  10  4  1  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 0.946640
+            INSERTEVENT: future time will be 6.162537
+    TOLAYER2: source: 3, dest: 2
+              costs:9  10  4  1  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 0.946640
+            INSERTEVENT: future time will be 4.063167
+MAIN: rcv event, t=0.992, at 0 src: 1, dest: 0, contents:   0   1   1   4
+                via     
+   D0 |    1     2    3 
+  ----|-----------------
+     1|    1     1     4
+dest 2|    1     0     2
+     3|   20     4     1
+    TOLAYER2: source: 0, dest: 1
+              costs:0  1  2  3  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 0.992243
+            INSERTEVENT: future time will be 2.877425
+    TOLAYER2: source: 0, dest: 2
+              costs:0  1  2  3  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 0.992243
+            INSERTEVENT: future time will be 4.945496
+    TOLAYER2: source: 0, dest: 3
+              costs:0  1  2  3  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 0.992243
+            INSERTEVENT: future time will be 1.315539
+MAIN: rcv event, t=1.209, at 3 src: 2, dest: 3, contents:   3   1   0   2
+             via     
+   D3 |    0     2 
+  ----|-----------
+     0|    0     2
+dest 1|    0     1
+     2|    3     0
+    TOLAYER2: source: 3, dest: 0
+              costs:7  10  4  1  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 1.209223
+            INSERTEVENT: future time will be 7.021071
+    TOLAYER2: source: 3, dest: 2
+              costs:7  10  4  1  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 1.209223
+            INSERTEVENT: future time will be 6.818479
+             via     
+   D3 |    0     2 
+  ----|-----------
+     0|    0     2
+dest 1|    0     1
+     2|    3     0
+    TOLAYER2: source: 3, dest: 0
+              costs:7  5  4  1  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 1.209223
+            INSERTEVENT: future time will be 7.970456
+    TOLAYER2: source: 3, dest: 2
+              costs:7  5  4  1  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 1.209223
+            INSERTEVENT: future time will be 7.995904
+MAIN: rcv event, t=1.316, at 3 src: 0, dest: 3, contents:   0   1   2   3
+MAIN: rcv event, t=1.642, at 2 src: 0, dest: 2, contents:   0   1   2   3
+                via     
+   D2 |    0     1    3 
+  ----|-----------------
+     0|    0     1     3
+dest 1|    0     1     3
+     3|    9    20     1
+    TOLAYER2: source: 2, dest: 0
+              costs:3  1  0  2  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 1.641910
+            INSERTEVENT: future time will be 9.406659
+    TOLAYER2: source: 2, dest: 1
+              costs:3  1  0  2  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 1.641910
+            INSERTEVENT: future time will be 3.589123
+    TOLAYER2: source: 2, dest: 3
+              costs:3  1  0  2  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 1.641910
+            INSERTEVENT: future time will be 2.759610
+                via     
+   D2 |    0     1    3 
+  ----|-----------------
+     0|    0     1     3
+dest 1|    0     1     3
+     3|    9    10     1
+    TOLAYER2: source: 2, dest: 0
+              costs:3  1  0  2  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 1.641910
+            INSERTEVENT: future time will be 11.188584
+    TOLAYER2: source: 2, dest: 1
+              costs:3  1  0  2  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 1.641910
+            INSERTEVENT: future time will be 3.973621
+    TOLAYER2: source: 2, dest: 3
+              costs:3  1  0  2  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 1.641910
+            INSERTEVENT: future time will be 4.238398
+MAIN: rcv event, t=1.871, at 1 src: 0, dest: 1, contents:   0   1   2   3
+             via   
+   D1 |    0     2 
+  ----|-----------
+     0|    0     2
+dest 2|    3     0
+     3|    9     4
+    TOLAYER2: source: 1, dest: 0
+              costs:0  1  1  3  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 1.870574
+            INSERTEVENT: future time will be 11.869385
+    TOLAYER2: source: 1, dest: 2
+              costs:0  1  1  3  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 1.870574
+            INSERTEVENT: future time will be 8.299536
+WARNING: source and destination not connected, ignoring packet!
+             via   
+   D1 |    0     2 
+  ----|-----------
+     0|    0     2
+dest 2|    3     0
+     3|    9     4
+    TOLAYER2: source: 1, dest: 0
+              costs:0  1  1  3  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 1.870574
+            INSERTEVENT: future time will be 12.405585
+    TOLAYER2: source: 1, dest: 2
+              costs:0  1  1  3  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 1.870574
+            INSERTEVENT: future time will be 9.316603
+WARNING: source and destination not connected, ignoring packet!
+MAIN: rcv event, t=2.166, at 2 src: 1, dest: 2, contents:   0   1   1   4
+                via     
+   D2 |    0     1    3 
+  ----|-----------------
+     0|    0     1     3
+dest 1|    0     1     3
+     3|    9    10     1
+    TOLAYER2: source: 2, dest: 0
+              costs:1  1  0  2  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 2.165707
+            INSERTEVENT: future time will be 12.579790
+    TOLAYER2: source: 2, dest: 1
+              costs:1  1  0  2  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 2.165707
+            INSERTEVENT: future time will be 4.151731
+    TOLAYER2: source: 2, dest: 3
+              costs:1  1  0  2  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 2.165707
+            INSERTEVENT: future time will be 6.202105
+MAIN: rcv event, t=2.407, at 0 src: 2, dest: 0, contents:   3   1   0   2
+                via     
+   D0 |    1     2    3 
+  ----|-----------------
+     1|    1     1     3
+dest 2|    1     0     2
+     3|   20     4     1
+    TOLAYER2: source: 0, dest: 1
+              costs:0  1  2  3  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 2.406722
+            INSERTEVENT: future time will be 5.318180
+    TOLAYER2: source: 0, dest: 2
+              costs:0  1  2  3  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 2.406722
+            INSERTEVENT: future time will be 10.018510
+    TOLAYER2: source: 0, dest: 3
+              costs:0  1  2  3  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 2.406722
+            INSERTEVENT: future time will be 7.580290
+                via     
+   D0 |    1     2    3 
+  ----|-----------------
+     1|    1     1     3
+dest 2|    1     0     2
+     3|   20     4     1
+    TOLAYER2: source: 0, dest: 1
+              costs:0  1  2  3  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 2.406722
+            INSERTEVENT: future time will be 5.424987
+    TOLAYER2: source: 0, dest: 2
+              costs:0  1  2  3  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 2.406722
+            INSERTEVENT: future time will be 10.983000
+    TOLAYER2: source: 0, dest: 3
+              costs:0  1  2  3  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 2.406722
+            INSERTEVENT: future time will be 8.655395
+                via     
+   D0 |    1     2    3 
+  ----|-----------------
+     1|    1     1     3
+dest 2|    1     0     2
+     3|    5     4     1
+    TOLAYER2: source: 0, dest: 1
+              costs:0  1  2  3  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 2.406722
+            INSERTEVENT: future time will be 5.787355
+    TOLAYER2: source: 0, dest: 2
+              costs:0  1  2  3  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 2.406722
+            INSERTEVENT: future time will be 12.174267
+    TOLAYER2: source: 0, dest: 3
+              costs:0  1  2  3  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 2.406722
+            INSERTEVENT: future time will be 10.601894
+MAIN: rcv event, t=2.421, at 2 src: 3, dest: 2, contents:   9  20   4   1
+MAIN: rcv event, t=2.760, at 3 src: 2, dest: 3, contents:   3   1   0   2
+MAIN: rcv event, t=2.811, at 1 src: 2, dest: 1, contents:   3   1   0   2
+             via   
+   D1 |    0     2 
+  ----|-----------
+     0|    0     2
+dest 2|    3     0
+     3|    7     4
+    TOLAYER2: source: 1, dest: 0
+              costs:0  1  1  3  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 2.810933
+            INSERTEVENT: future time will be 12.774278
+    TOLAYER2: source: 1, dest: 2
+              costs:0  1  1  3  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 2.810933
+            INSERTEVENT: future time will be 14.136038
+WARNING: source and destination not connected, ignoring packet!
+             via   
+   D1 |    0     2 
+  ----|-----------
+     0|    0     2
+dest 2|    3     0
+     3|    7     4
+    TOLAYER2: source: 1, dest: 0
+              costs:0  1  1  3  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 2.810933
+            INSERTEVENT: future time will be 12.787271
+    TOLAYER2: source: 1, dest: 2
+              costs:0  1  1  3  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 2.810933
+            INSERTEVENT: future time will be 15.212854
+WARNING: source and destination not connected, ignoring packet!
+MAIN: rcv event, t=2.877, at 1 src: 0, dest: 1, contents:   0   1   2   3
+MAIN: rcv event, t=3.293, at 2 src: 3, dest: 2, contents:   9  20   4   1
+MAIN: rcv event, t=3.589, at 1 src: 2, dest: 1, contents:   3   1   0   2
+MAIN: rcv event, t=3.974, at 1 src: 2, dest: 1, contents:   3   1   0   2
+MAIN: rcv event, t=4.063, at 2 src: 3, dest: 2, contents:   9  10   4   1
+MAIN: rcv event, t=4.104, at 0 src: 3, dest: 0, contents:   9  20   4   1
+MAIN: rcv event, t=4.152, at 1 src: 2, dest: 1, contents:   1   1   0   2
+             via   
+   D1 |    0     2 
+  ----|-----------
+     0|    0     2
+dest 2|    1     0
+     3|    7     4
+    TOLAYER2: source: 1, dest: 0
+              costs:0  1  1  3  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 4.151731
+            INSERTEVENT: future time will be 12.855357
+    TOLAYER2: source: 1, dest: 2
+              costs:0  1  1  3  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 4.151731
+            INSERTEVENT: future time will be 16.084381
+WARNING: source and destination not connected, ignoring packet!
+             via   
+   D1 |    0     2 
+  ----|-----------
+     0|    0     2
+dest 2|    1     0
+     3|    5     4
+    TOLAYER2: source: 1, dest: 0
+              costs:0  1  1  3  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 4.151731
+            INSERTEVENT: future time will be 13.805157
+    TOLAYER2: source: 1, dest: 2
+              costs:0  1  1  3  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 4.151731
+            INSERTEVENT: future time will be 17.101852
+WARNING: source and destination not connected, ignoring packet!
+MAIN: rcv event, t=4.238, at 3 src: 2, dest: 3, contents:   3   1   0   2
+MAIN: rcv event, t=4.330, at 0 src: 3, dest: 0, contents:   9  20   4   1
+MAIN: rcv event, t=4.945, at 2 src: 0, dest: 2, contents:   0   1   2   3
+MAIN: rcv event, t=5.318, at 1 src: 0, dest: 1, contents:   0   1   2   3
+MAIN: rcv event, t=5.425, at 1 src: 0, dest: 1, contents:   0   1   2   3
+MAIN: rcv event, t=5.787, at 1 src: 0, dest: 1, contents:   0   1   2   3
+MAIN: rcv event, t=6.163, at 0 src: 3, dest: 0, contents:   9  10   4   1
+MAIN: rcv event, t=6.202, at 3 src: 2, dest: 3, contents:   1   1   0   2
+             via     
+   D3 |    0     2 
+  ----|-----------
+     0|    0     2
+dest 1|    0     1
+     2|    1     0
+    TOLAYER2: source: 3, dest: 0
+              costs:1  5  4  1  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 6.202105
+            INSERTEVENT: future time will be 13.854109
+    TOLAYER2: source: 3, dest: 2
+              costs:1  5  4  1  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 6.202105
+            INSERTEVENT: future time will be 17.487856
+             via     
+   D3 |    0     2 
+  ----|-----------
+     0|    0     2
+dest 1|    0     1
+     2|    1     0
+    TOLAYER2: source: 3, dest: 0
+              costs:1  5  4  1  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 6.202105
+            INSERTEVENT: future time will be 15.583278
+    TOLAYER2: source: 3, dest: 2
+              costs:1  5  4  1  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 6.202105
+            INSERTEVENT: future time will be 18.654509
+MAIN: rcv event, t=6.818, at 2 src: 3, dest: 2, contents:   7  10   4   1
+                via     
+   D2 |    0     1    3 
+  ----|-----------------
+     0|    0     1     3
+dest 1|    0     1     3
+     3|    8    10     1
+    TOLAYER2: source: 2, dest: 0
+              costs:1  1  0  2  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 6.818479
+            INSERTEVENT: future time will be 15.751206
+    TOLAYER2: source: 2, dest: 1
+              costs:1  1  0  2  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 6.818479
+            INSERTEVENT: future time will be 6.932146
+    TOLAYER2: source: 2, dest: 3
+              costs:1  1  0  2  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 6.818479
+            INSERTEVENT: future time will be 11.247334
+MAIN: rcv event, t=6.932, at 1 src: 2, dest: 1, contents:   1   1   0   2
+MAIN: rcv event, t=7.021, at 0 src: 3, dest: 0, contents:   7  10   4   1
+MAIN: rcv event, t=7.580, at 3 src: 0, dest: 3, contents:   0   1   2   3
+MAIN: rcv event, t=7.970, at 0 src: 3, dest: 0, contents:   7   5   4   1
+MAIN: rcv event, t=7.996, at 2 src: 3, dest: 2, contents:   7   5   4   1
+                via     
+   D2 |    0     1    3 
+  ----|-----------------
+     0|    0     1     3
+dest 1|    0     1     3
+     3|    8     6     1
+    TOLAYER2: source: 2, dest: 0
+              costs:1  1  0  2  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 7.995904
+            INSERTEVENT: future time will be 16.599936
+    TOLAYER2: source: 2, dest: 1
+              costs:1  1  0  2  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 7.995904
+            INSERTEVENT: future time will be 8.413202
+    TOLAYER2: source: 2, dest: 3
+              costs:1  1  0  2  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 7.995904
+            INSERTEVENT: future time will be 12.428975
+MAIN: rcv event, t=8.300, at 2 src: 1, dest: 2, contents:   0   1   1   3
+                via     
+   D2 |    0     1    3 
+  ----|-----------------
+     0|    0     1     3
+dest 1|    0     1     3
+     3|    6     6     1
+    TOLAYER2: source: 2, dest: 0
+              costs:1  1  0  2  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 8.299536
+            INSERTEVENT: future time will be 18.465733
+    TOLAYER2: source: 2, dest: 1
+              costs:1  1  0  2  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 8.299536
+            INSERTEVENT: future time will be 9.004705
+    TOLAYER2: source: 2, dest: 3
+              costs:1  1  0  2  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 8.299536
+            INSERTEVENT: future time will be 13.788726
+MAIN: rcv event, t=8.413, at 1 src: 2, dest: 1, contents:   1   1   0   2
+MAIN: rcv event, t=8.655, at 3 src: 0, dest: 3, contents:   0   1   2   3
+MAIN: rcv event, t=9.005, at 1 src: 2, dest: 1, contents:   1   1   0   2
+MAIN: rcv event, t=9.317, at 2 src: 1, dest: 2, contents:   0   1   1   3
+MAIN: rcv event, t=9.407, at 0 src: 2, dest: 0, contents:   3   1   0   2
+MAIN: rcv event, t=10.019, at 2 src: 0, dest: 2, contents:   0   1   2   3
+MAIN: rcv event, t=10.602, at 3 src: 0, dest: 3, contents:   0   1   2   3
+MAIN: rcv event, t=10.983, at 2 src: 0, dest: 2, contents:   0   1   2   3
+MAIN: rcv event, t=11.189, at 0 src: 2, dest: 0, contents:   3   1   0   2
+MAIN: rcv event, t=11.247, at 3 src: 2, dest: 3, contents:   1   1   0   2
+MAIN: rcv event, t=11.869, at 0 src: 1, dest: 0, contents:   0   1   1   3
+                via     
+   D0 |    1     2    3 
+  ----|-----------------
+     1|    1     1     3
+dest 2|    1     0     2
+     3|    5     4     1
+    TOLAYER2: source: 0, dest: 1
+              costs:0  1  2  3  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 11.869385
+            INSERTEVENT: future time will be 13.698888
+    TOLAYER2: source: 0, dest: 2
+              costs:0  1  2  3  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 11.869385
+            INSERTEVENT: future time will be 20.412460
+    TOLAYER2: source: 0, dest: 3
+              costs:0  1  2  3  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 11.869385
+            INSERTEVENT: future time will be 13.850384
+MAIN: rcv event, t=12.174, at 2 src: 0, dest: 2, contents:   0   1   2   3
+MAIN: rcv event, t=12.406, at 0 src: 1, dest: 0, contents:   0   1   1   3
+MAIN: rcv event, t=12.429, at 3 src: 2, dest: 3, contents:   1   1   0   2
+MAIN: rcv event, t=12.580, at 0 src: 2, dest: 0, contents:   1   1   0   2
+MAIN: rcv event, t=12.774, at 0 src: 1, dest: 0, contents:   0   1   1   3
+MAIN: rcv event, t=12.787, at 0 src: 1, dest: 0, contents:   0   1   1   3
+MAIN: rcv event, t=12.855, at 0 src: 1, dest: 0, contents:   0   1   1   3
+MAIN: rcv event, t=13.699, at 1 src: 0, dest: 1, contents:   0   1   2   3
+MAIN: rcv event, t=13.789, at 3 src: 2, dest: 3, contents:   1   1   0   2
+MAIN: rcv event, t=13.805, at 0 src: 1, dest: 0, contents:   0   1   1   3
+MAIN: rcv event, t=13.850, at 3 src: 0, dest: 3, contents:   0   1   2   3
+MAIN: rcv event, t=13.854, at 0 src: 3, dest: 0, contents:   1   5   4   1
+                via     
+   D0 |    1     2    3 
+  ----|-----------------
+     1|    1     1     3
+dest 2|    1     0     2
+     3|    5     4     1
+    TOLAYER2: source: 0, dest: 1
+              costs:0  1  2  3  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 13.854109
+            INSERTEVENT: future time will be 15.061797
+    TOLAYER2: source: 0, dest: 2
+              costs:0  1  2  3  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 13.854109
+            INSERTEVENT: future time will be 22.277220
+    TOLAYER2: source: 0, dest: 3
+              costs:0  1  2  3  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 13.854109
+            INSERTEVENT: future time will be 14.880258
+MAIN: rcv event, t=14.136, at 2 src: 1, dest: 2, contents:   0   1   1   3
+MAIN: rcv event, t=14.880, at 3 src: 0, dest: 3, contents:   0   1   2   3
+MAIN: rcv event, t=15.062, at 1 src: 0, dest: 1, contents:   0   1   2   3
+MAIN: rcv event, t=15.213, at 2 src: 1, dest: 2, contents:   0   1   1   3
+MAIN: rcv event, t=15.583, at 0 src: 3, dest: 0, contents:   1   5   4   1
+MAIN: rcv event, t=15.751, at 0 src: 2, dest: 0, contents:   1   1   0   2
+MAIN: rcv event, t=16.084, at 2 src: 1, dest: 2, contents:   0   1   1   3
+MAIN: rcv event, t=16.600, at 0 src: 2, dest: 0, contents:   1   1   0   2
+MAIN: rcv event, t=17.102, at 2 src: 1, dest: 2, contents:   0   1   1   3
+MAIN: rcv event, t=17.488, at 2 src: 3, dest: 2, contents:   1   5   4   1
+                via     
+   D2 |    0     1    3 
+  ----|-----------------
+     0|    0     1     3
+dest 1|    0     1     3
+     3|    2     6     1
+    TOLAYER2: source: 2, dest: 0
+              costs:1  1  0  2  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 17.487856
+            INSERTEVENT: future time will be 18.748526
+    TOLAYER2: source: 2, dest: 1
+              costs:1  1  0  2  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 17.487856
+            INSERTEVENT: future time will be 17.714983
+    TOLAYER2: source: 2, dest: 3
+              costs:1  1  0  2  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 17.487856
+            INSERTEVENT: future time will be 17.705271
+MAIN: rcv event, t=17.705, at 3 src: 2, dest: 3, contents:   1   1   0   2
+MAIN: rcv event, t=17.715, at 1 src: 2, dest: 1, contents:   1   1   0   2
+MAIN: rcv event, t=18.466, at 0 src: 2, dest: 0, contents:   1   1   0   2
+MAIN: rcv event, t=18.655, at 2 src: 3, dest: 2, contents:   1   5   4   1
+MAIN: rcv event, t=18.749, at 0 src: 2, dest: 0, contents:   1   1   0   2
+MAIN: rcv event, t=20.412, at 2 src: 0, dest: 2, contents:   0   1   2   3
+                via     
+   D2 |    0     1    3 
+  ----|-----------------
+     0|    0     1     3
+dest 1|    0     1     3
+     3|    2     3     1
+    TOLAYER2: source: 2, dest: 0
+              costs:1  1  0  2  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 20.412460
+            INSERTEVENT: future time will be 20.641754
+    TOLAYER2: source: 2, dest: 1
+              costs:1  1  0  2  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 20.412460
+            INSERTEVENT: future time will be 20.834074
+    TOLAYER2: source: 2, dest: 3
+              costs:1  1  0  2  
+    TOLAYER2: scheduling arrival on other side
+            INSERTEVENT: time is 20.412460
+            INSERTEVENT: future time will be 20.591646
+MAIN: rcv event, t=20.592, at 3 src: 2, dest: 3, contents:   1   1   0   2
+MAIN: rcv event, t=20.642, at 0 src: 2, dest: 0, contents:   1   1   0   2
+MAIN: rcv event, t=20.834, at 1 src: 2, dest: 1, contents:   1   1   0   2
+MAIN: rcv event, t=22.277, at 2 src: 0, dest: 2, contents:   0   1   2   3
+MAIN: rcv event, t=10000.000, at -1MAIN: rcv event, t=20000.000, at 0
+Simulator terminated at t=20000.000000, no packets in medium
+
